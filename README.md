@@ -3,3 +3,4 @@
 
 ## [Demo on Codepen](https://codepen.io/natalka-litkovets/pen/pobbZPe)
 
+![скан-завдання](https://github.com/user-attachments/assets/e576868c-ff95-4be3-9156-c1ad3ea862df)
