@@ -40,4 +40,20 @@
 
 ## 4. Анімація для блоку .left
 ### Створення псевдоелементу :before
+Псевдоелемент ::before створюється лише тоді, коли для нього задано властивість:
+content: "";
+Це базове правило, яке: 
+- створює псевдоелемент,
+- описує його вигляд і поведінку.
+ ### .left a::before {
+   content: "";
+   bottom: 0;
+   right: 0;
+   position: absolute;
+   width: 0%;
+   height: 20px;
+   background-color: #7a0909;
+   transition: 0.2s;
+   opacity: 0.4;
+}
 
