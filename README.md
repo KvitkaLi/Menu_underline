@@ -23,7 +23,7 @@ font-size: 24px;
    width: 50%;  
 }  
 width: 50%;  
-- Контейнер займає половину ширини сторінки.
+- Контейнер займає половину ширини сторінки.  
 margin: 0 auto;  
 - Автоматичні лівий і правий відступи → блок вирівнюється по центру сторінки.  
 
@@ -32,10 +32,9 @@ margin: 0 auto;
 text-decoration: none;  
 position: relative;  
 }  
-### text-decoration: none;
+text-decoration: none;  
 - Забирає стандартне підкреслення у посилань.
-
-### position: relative;
+position: relative;  
 - Дуже важливо: робить <a> опорним елементом для псевдоелемента ::before, який має position: absolute.
 
 ## 4. Анімація для блоку .left
