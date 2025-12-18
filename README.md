@@ -10,11 +10,11 @@
    font-weight: 300;  
    font-size: 24px;  
 }
-### font-family: sans-serif;
-- Встановлює шрифт без засічок для всього документа (наприклад Arial, Helvetica).
-### font-weight: 300;
+font-family: sans-serif;
+- Встановлює шрифт без засічок для всього документа (наприклад Arial, Helvetica).  
+font-weight: 300;
 - Легкий (тонкий) шрифт.
-### font-size: 24px;
+font-size: 24px;
 - Досить великий розмір тексту — зручно для демонстрацій і навчання.
   
 ## 2. Контейнер для посилань
