@@ -10,12 +10,12 @@
    font-weight: 300;  
    font-size: 24px; 
 }
-font-family: sans-serif;
-- Встановлює шрифт без засічок для всього документа (наприклад Arial, Helvetica).  
-font-weight: 300;
-- Легкий (тонкий) шрифт.
-font-size: 24px;  
-- Досить великий розмір тексту — зручно для демонстрацій і навчання.
+- font-family: sans-serif;  
+Встановлює шрифт без засічок для всього документа (наприклад Arial, Helvetica).  
+- font-weight: 300;  
+Легкий (тонкий) шрифт.
+- font-size: 24px;  
+Досить великий розмір тексту — зручно для демонстрацій і навчання.
   
 ## 2. Контейнер для посилань
 ### .links {  
@@ -33,11 +33,11 @@ font-size: 24px;
 ### a {  
 text-decoration: none;  
 position: relative;  
-}  
-text-decoration: none;  
-- Забирає стандартне підкреслення у посилань.
-position: relative;  
-- Дуже важливо: робить <a> опорним елементом для псевдоелемента ::before, який має position: absolute.
+### }  
+- text-decoration: none;  
+Забирає стандартне підкреслення у посилань.
+- position: relative;  
+Дуже важливо: робить <a> опорним елементом для псевдоелемента ::before, який має position: absolute.
 
 ## 4. Анімація для блоку .left
 ### Створення псевдоелементу :before
