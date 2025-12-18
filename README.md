@@ -18,7 +18,7 @@ font-size: 24px;
 - Досить великий розмір тексту — зручно для демонстрацій і навчання.
   
 ## 2. Контейнер для посилань
-.links {  
+### .links {  
    margin: 0 auto;  
    width: 50%;  
 }  
@@ -47,15 +47,34 @@ content: "";
 Це базове правило, яке: 
 - створює псевдоелемент,
 - описує його вигляд і поведінку.
- ### .left a::before {
-   content: "";
-   bottom: 0;
-   right: 0;
-   position: absolute;
-   width: 0%;
-   height: 20px;
-   background-color: #7a0909;
-   transition: 0.2s;
-   opacity: 0.4;
-}
+ ### .left a::before {  
+   content: "";  
+   bottom: 0;  
+   right: 0;  
+   position: absolute;  
+   width: 0%;  
+   height: 20px;  
+   background-color: #7a0909;  
+   transition: 0.2s;  
+   opacity: 0.4;  
+}  
+- content: "";
+Обов’язкове для створення псевдоелемента.
 
+- position: absolute;
+Дає змогу точно розмістити псевдоелемент всередині <a>.
+
+- bottom: 0; right: 0;
+Стартова позиція — знизу справа.
+
+- width: 0%;
+Псевдоелемент спочатку невидимий.
+
+- height: 20px;
+Висота смуги (псевдо-підсвітки).
+
+- transition: 0.2s;
+Плавна анімація зміни властивостей.
+
+- opacity: 0.4;
+Напівпрозорий фон.
