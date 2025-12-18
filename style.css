@@ -11,9 +11,7 @@ a {
   text-decoration: none;
   position: relative;
 }
-.left a.top::before {
-  top: 0;
-}
+
 /* right */
 .left a::before {
   content: '';
@@ -25,6 +23,9 @@ a {
   background-color:#FFFFFF;
   transition: 0.2s;
   opacity: .6;
+}
+.left a.top::before {
+  top: 0;
 }
 .left a:hover:before {
   width: 100%;
@@ -66,3 +67,4 @@ a {
   color:#FFFFFF;
 
 }
+
