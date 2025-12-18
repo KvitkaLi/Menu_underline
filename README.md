@@ -9,7 +9,7 @@
    font-family: sans-serif;  
    font-weight: 300;  
    font-size: 24px; 
-}
+}  
 - font-family: sans-serif;  
 Встановлює шрифт без засічок для всього документа (наприклад Arial, Helvetica).  
 - font-weight: 300;  
