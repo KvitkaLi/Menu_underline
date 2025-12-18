@@ -6,9 +6,9 @@
 ![скан-завдання](https://github.com/user-attachments/assets/e576868c-ff95-4be3-9156-c1ad3ea862df)
 ## 1. Базові стилі для всієї сторінки
 ### body {
-   font-family: sans-serif;
-   font-weight: 300;
-   font-size: 24px;
+   font-family: sans-serif;  
+   font-weight: 300;  
+   font-size: 24px;  
 }
 ### font-family: sans-serif;
 - Встановлює шрифт без засічок для всього документа (наприклад Arial, Helvetica).
@@ -18,23 +18,20 @@
 - Досить великий розмір тексту — зручно для демонстрацій і навчання.
   
 ## 2. Контейнер для посилань
-.links {
-   margin: 0 auto;
-   width: 50%;
-}
+.links {  
+   margin: 0 auto;  
+   width: 50%;  
+}  
 ### width: 50%;
 - Контейнер займає половину ширини сторінки.
 ### margin: 0 auto;
 - Автоматичні лівий і правий відступи → блок вирівнюється по центру сторінки.
 
 ## 3. Загальні стилі для посилань
-### a {
-
-text-decoration: none;
-
-position: relative;
-
-}
+### a {  
+text-decoration: none;  
+position: relative;  
+}  
 ### text-decoration: none;
 - Забирає стандартне підкреслення у посилань.
 
