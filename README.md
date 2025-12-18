@@ -110,4 +110,18 @@ content: "";
 - не торкається content.
 ### Чому content не дублюють
 У CSS діє принцип:  
-* Один елемент — кілька правил — один підсумковий стиль
+* Один елемент — кілька правил — один підсумковий стиль.
+## 6. Анімація для .center
+### .center a::before {  
+   content: "";  
+   bottom: 0;  
+   left: 0;  
+   position: absolute;  
+   width: 100%;  
+   height: 5px;  
+   background-color: #000;  
+   transition: 0.2s;  
+   transform: scaleX(0);  
+}  
+* Лінія одразу на всю ширину,
+* але стиснута по горизонталі (scaleX(0)).
